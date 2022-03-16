@@ -30,7 +30,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--white);
   color: var(--text);
 }
 

@@ -1,0 +1,61 @@
+.roomContainer {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.roomImageContainer img{
+ display: block;
+}
+.roomAuthContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 18rem;
+  justify-content: flex-end;
+}
+.roomAuthContainer h2{
+  color: var(--white);
+  margin-top: 8rem;
+}
+.roomGithub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.roomGithub p {
+  font: "Inter", sans-serif;
+  font-weight: 500;
+  color: var(--white);
+}
+.roomUser{
+  display: flex;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+.roomUser input {
+  padding: 0.8rem;
+  border-radius: 5px 0px 0px 5px;
+  background: linear-gradient(
+    135deg, var(--blue), var(--blue-dark));
+  border: none;
+  color: var(--white);
+}
+.roomUser input {
+  color: var(--white);
+}
+.roomUser input::placeholder {
+  color: var(--white);
+  filter: brightness(0.9);
+
+}
+.roomUser button {
+  padding: 0.8rem;
+  background-color: var(--green);
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  transition: filter 0.2s;
+
+}
+.roomUser button:hover{
+  filter: brightness(0.9);
+}
